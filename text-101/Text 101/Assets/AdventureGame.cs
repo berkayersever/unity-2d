@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class AdventureGame : MonoBehaviour {
 
-    Text textComponent;
+    [SerializeField] Text textComponent;
 
 	// Use this for initialization
 	void Start () {
