@@ -9,7 +9,7 @@ public class AdventureGame : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		textComponent.text = "BAZINGA!";
+		textComponent.text = ("I am added programmatically!");
 	}
 	
 	// Update is called once per frame
