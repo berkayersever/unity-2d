@@ -16,6 +16,11 @@ public class AdventureGame : MonoBehaviour {
 	void Start () {
         state = startingState;
         textComponent.text = state.GetStateStory();
+        Debug.Log(oddNumbers[3]);
+        // int sizeOfArray = oddNumbers.Length;
+        for (int i = 0; i < oddNumbers.Length; i++) {
+            Debug.Log(oddNumbers[i]);
+        }
 	}
 	
 	// Update is called once per frame
