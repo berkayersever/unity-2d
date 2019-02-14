@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -31,6 +32,11 @@ public class AdventureGame : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        ManageState();
 	}
+
+    private void ManageState()
+    {
+        var nextStates = state.GetNextStates();
+    }
 }
