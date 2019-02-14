@@ -8,6 +8,8 @@ public class AdventureGame : MonoBehaviour {
     [SerializeField] Text textComponent;
     [SerializeField] State startingState;
 
+    int[] oddNumbers = { 1, 3, 5, 7, 9 };
+
     State state;
 
 	// Use this for initialization
