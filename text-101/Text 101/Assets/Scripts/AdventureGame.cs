@@ -9,25 +9,12 @@ public class AdventureGame : MonoBehaviour {
     [SerializeField] Text textComponent;
     [SerializeField] State startingState;
 
-    //int[] oddNumbers = { 1, 3, 5, 7, 9 };
-    //string[] daysOfTheWeek = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
-
     State state;
 
 	// Use this for initialization
 	void Start () {
         state = startingState;
         textComponent.text = state.GetStateStory();
-        //Debug.Log(oddNumbers[3]);
-        //Debug.Log(daysOfTheWeek[1]);
-        // int sizeOfArray = oddNumbers.Length;
-        //for (int i = 0; i < oddNumbers.Length; i++) {
-        //    Debug.Log(oddNumbers[i]);
-        //}
-        //for (int i = 0; i < daysOfTheWeek.Length; i++)
-        //{
-        //    Debug.Log(daysOfTheWeek[i]);
-        //}
     }
 	
 	// Update is called once per frame
@@ -46,7 +33,7 @@ public class AdventureGame : MonoBehaviour {
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            state = nextStates[2];
+            // state = nextStates[2];
         }
         textComponent.text = state.GetStateStory();
     }
