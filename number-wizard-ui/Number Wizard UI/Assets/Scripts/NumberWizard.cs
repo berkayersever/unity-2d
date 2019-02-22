@@ -20,6 +20,11 @@ public class NumberWizard : MonoBehaviour {
         
         max = max + 1;
     }
+
+    public void OnPressHigher() {
+        min = guess;
+        NextGuess();
+    }
 	
 	// Update is called once per frame
 	void Update () {		
