@@ -621,7 +621,7 @@ GameObject:
   - component: {fileID: 2005974677}
   - component: {fileID: 2005974676}
   m_Layer: 5
-  m_Name: Jace
+  m_Name: Jace Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
