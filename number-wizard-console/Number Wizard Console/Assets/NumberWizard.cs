@@ -6,7 +6,7 @@ public class NumberWizard : MonoBehaviour {
 
     [SerializeField] int min;
     [SerializeField] int max;
-    int guess;
+    [SerializeField] int guess;
 
 	// Use this for initialization
 	void Start () {
