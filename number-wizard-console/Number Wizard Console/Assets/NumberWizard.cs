@@ -5,7 +5,7 @@ using UnityEngine;
 public class NumberWizard : MonoBehaviour {
 
     [SerializeField] int min;
-    int max;
+    [SerializeField] int max;
     int guess;
 
 	// Use this for initialization
