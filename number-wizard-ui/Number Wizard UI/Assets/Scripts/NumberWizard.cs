@@ -25,9 +25,14 @@ public class NumberWizard : MonoBehaviour {
         min = guess;
         NextGuess();
     }
-	
-	// Update is called once per frame
-	void Update () {		
+
+    public void OnPressLower() {
+        max = guess;
+        NextGuess();
+    }
+
+    // Update is called once per frame
+    void Update () {		
         if (Input.GetKeyDown(KeyCode.UpArrow)) {            // Detect when the up arrow key is pressed down
             min = guess;
             NextGuess();
