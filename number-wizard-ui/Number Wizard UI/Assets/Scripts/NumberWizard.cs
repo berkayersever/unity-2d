@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class NumberWizard : MonoBehaviour {
 
     [SerializeField] int min;
     [SerializeField] int max;
+    [SerializeField] TextMeshProUGUI guessText;
     int guess;
 
 	// Use this for initialization
