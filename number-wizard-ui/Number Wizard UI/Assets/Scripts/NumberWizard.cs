@@ -26,7 +26,7 @@ public class NumberWizard : MonoBehaviour {
     }
 
     public void OnPressLower() {
-        max = guess;
+        max = guess - 1;
         NextGuess();
     }
 
