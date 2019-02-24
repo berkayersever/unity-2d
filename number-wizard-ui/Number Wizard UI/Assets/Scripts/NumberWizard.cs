@@ -16,8 +16,7 @@ public class NumberWizard : MonoBehaviour {
 	}
 
     void StartGame () {
-        guess = (max + min) / 2;
-        guessText.text = guess.ToString();
+        NextGuess();
         max = max + 1;
     }
 
